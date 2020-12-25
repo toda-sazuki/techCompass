@@ -12,7 +12,7 @@ public class Task1 {
 
 		System.out.println("数字を入力してください:" + num);
 
-		for(int i = 0; i < num; i ++ ) {
+		for(int i = 0; i <= num; i ++ ) {
 			sum += i;
 		}
 		System.out.println("1~" + num + "までの合計:" + sum);
